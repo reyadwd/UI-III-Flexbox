@@ -64,3 +64,157 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+.
+header {
+	display: inline-block;
+	margin-top: 40px;
+	padding-left: 77px;
+}
+header nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 880px;
+	margin-top: 40px;
+}
+
+header nav a {
+	color: gray;
+	text-decoration: none;
+	margin: 0 40px;
+	font-size: 13px;
+}
+
+.main-content .services-header-img {
+	margin: 20px 80px;
+}
+
+.services h1 {
+font-size: 25px;
+padding: 10px 77px;
+}
+
+.services p {
+	border-bottom: 1px solid black;
+	padding: 20px 0px 40px 0px;
+	margin: 15px 40px 30px 80px;
+	border-bottom: 1px solid black;
+}
+
+.development-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0px 40px 0px;
+	margin-right: 18px;
+	width: 1340px;
+	margin-left: 80px
+	}
+
+.development-boxes .digital h2 {
+	font-size: 16.5px;
+  }
+
+  .development-boxes p {
+	  padding: 10px 10px;
+	  margin-left: 10px;
+  }
+
+  .development-boxes  button {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding:10px;
+	padding-right: 40px;
+	text-align: center;
+	   }
+  
+  .development-boxes h2 {
+	  padding-top: 20px;
+	  padding-left: 19px;
+  }
+  .development-boxes .digital{
+	margin-right: 50px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  width: 400px;
+  background-color: lightgray;
+  }
+  
+  .development-boxes .UX-UI{
+	margin-right: 50px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  width: 400px;
+  background-color: lightgray;
+  }
+  
+  .development-boxes .Marketing{
+	margin-right: 50px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  width: 400px;
+  background-color: lightgray;
+  }
+  
+  .development-boxes .Web-Development{
+	margin-right: 50px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  width: 400px;
+  background-color: lightgray;
+  }
+  
+  .development-boxes .iOS-Development{
+	margin-right: 50px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  width: 400px;
+  background-color: lightgray;
+  }
+  
+  .development-boxes .Android-Development{
+	margin-right: 50px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  width: 400px;
+  background-color: lightgray;
+  }
+  
+  .Facts {
+	  display: inline-block;
+	  width: 900px;
+	padding: 40px;
+	margin-right: 10px;
+	margin-left: 45px;
+	border-top: 1px solid black;
+}
+
+.services-info-img {
+	padding: 40px;
+	margin: 50px;
+}
+
+.facts-text li {
+	padding: 20px 30px 0;
+	margin-left: 50px;
+	list-style-type: square;
+	}
+
+	footer {
+		text-align: center;
+		margin: 32px 0;
+  		font-size: 14px;
+	}
+
+
